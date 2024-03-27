@@ -1,0 +1,23 @@
+.Skills-container{
+    color: var(--color-text);
+    padding-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.Skills-imgContainer img{
+  background-color: var(--color-secondary);
+  border-radius: 40%;
+  padding: 20px;
+}
+.Skills-imgContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Skills-title{
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}

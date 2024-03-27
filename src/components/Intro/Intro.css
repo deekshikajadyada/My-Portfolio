@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+  }
+  
+  .details {
+    padding-left: 30px; 
+    color: var(--color-text)
+  }
+  
+  /* .image {
+    padding-right: 30px; 
+  } */
+  
+  .image img {
+    border-radius: 50%; 
+  }
+  
+  .contact {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--color-primary); 
+    color: var(--color-text); 
+    border-radius: 100px;
+    font-weight: bold; 
+    padding: 10px 20px; 
+    margin-top: 20px; 
+  }
+  
